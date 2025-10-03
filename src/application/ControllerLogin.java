@@ -82,7 +82,7 @@ public class ControllerLogin {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Login Bem-Sucedido");
                 alert.setHeaderText(null);
-                alert.setContentText("Bem-vindo, " + usuario + "! Login realizado com sucesso.");
+                alert.setContentText("        Bem-vindo, " + usuario + "!\n\n Login realizado com sucesso.");
                 alert.showAndWait();
 
                 btnEntrar.getScene().getWindow().hide(); // Fecha a janela de login
